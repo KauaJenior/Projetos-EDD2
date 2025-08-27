@@ -1,0 +1,15 @@
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\obj\Debug\net8.0\Proj. MVC Vendedores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\obj\Debug\net8.0\Proj. MVC Vendedores.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\obj\Debug\net8.0\Proj. MVC Vendedores.AssemblyInfo.cs
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\obj\Debug\net8.0\Proj. MVC Vendedores.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\obj\Debug\net8.0\Proj. MVC Vendedores.sourcelink.json
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\bin\Debug\net8.0\Proj. MVC Vendedores.exe
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\bin\Debug\net8.0\Proj. MVC Vendedores.deps.json
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\bin\Debug\net8.0\Proj. MVC Vendedores.runtimeconfig.json
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\bin\Debug\net8.0\Proj. MVC Vendedores.dll
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\bin\Debug\net8.0\Proj. MVC Vendedores.pdb
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\obj\Debug\net8.0\Proj. MVC Vendedores.dll
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\obj\Debug\net8.0\refint\Proj. MVC Vendedores.dll
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\obj\Debug\net8.0\Proj. MVC Vendedores.pdb
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\obj\Debug\net8.0\Proj. MVC Vendedores.genruntimeconfig.cache
+C:\Users\alexa\source\repos\Projetos-EDD2\Proj. MVC Vendedores\Proj. MVC Vendedores\obj\Debug\net8.0\ref\Proj. MVC Vendedores.dll

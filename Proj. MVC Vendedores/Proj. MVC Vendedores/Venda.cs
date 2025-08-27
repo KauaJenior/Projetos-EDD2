@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proj._MVC_Vendedores
 {
-    internal class Venda
+    public class Venda
     {
         private int qtde;
         private double valor;
