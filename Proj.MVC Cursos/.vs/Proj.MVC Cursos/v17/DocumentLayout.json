@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alexa\\source\\repos\\Proj.MVC Cursos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66A7F6B0-532A-4316-8231-ECCBA6A3F57A}|Proj.MVC Cursos\\Proj.MVC Cursos.csproj|c:\\users\\alexa\\source\\repos\\proj.mvc cursos\\proj.mvc cursos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A7F6B0-532A-4316-8231-ECCBA6A3F57A}|Proj.MVC Cursos\\Proj.MVC Cursos.csproj|solutionrelative:proj.mvc cursos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A7F6B0-532A-4316-8231-ECCBA6A3F57A}|Proj.MVC Cursos\\Proj.MVC Cursos.csproj|c:\\users\\alexa\\source\\repos\\proj.mvc cursos\\proj.mvc cursos\\escola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A7F6B0-532A-4316-8231-ECCBA6A3F57A}|Proj.MVC Cursos\\Proj.MVC Cursos.csproj|solutionrelative:proj.mvc cursos\\escola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A7F6B0-532A-4316-8231-ECCBA6A3F57A}|Proj.MVC Cursos\\Proj.MVC Cursos.csproj|c:\\users\\alexa\\source\\repos\\proj.mvc cursos\\proj.mvc cursos\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A7F6B0-532A-4316-8231-ECCBA6A3F57A}|Proj.MVC Cursos\\Proj.MVC Cursos.csproj|solutionrelative:proj.mvc cursos\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A7F6B0-532A-4316-8231-ECCBA6A3F57A}|Proj.MVC Cursos\\Proj.MVC Cursos.csproj|c:\\users\\alexa\\source\\repos\\proj.mvc cursos\\proj.mvc cursos\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A7F6B0-532A-4316-8231-ECCBA6A3F57A}|Proj.MVC Cursos\\Proj.MVC Cursos.csproj|solutionrelative:proj.mvc cursos\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A7F6B0-532A-4316-8231-ECCBA6A3F57A}|Proj.MVC Cursos\\Proj.MVC Cursos.csproj|c:\\users\\alexa\\source\\repos\\proj.mvc cursos\\proj.mvc cursos\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A7F6B0-532A-4316-8231-ECCBA6A3F57A}|Proj.MVC Cursos\\Proj.MVC Cursos.csproj|solutionrelative:proj.mvc cursos\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Proj.MVC Cursos\\Proj.MVC Cursos\\Program.cs",
+              "RelativeDocumentMoniker": "Proj.MVC Cursos\\Program.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Proj.MVC Cursos\\Proj.MVC Cursos\\Program.cs",
+              "RelativeToolTip": "Proj.MVC Cursos\\Program.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAIwLsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:24:18.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Escola.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Proj.MVC Cursos\\Proj.MVC Cursos\\Escola.cs",
+              "RelativeDocumentMoniker": "Proj.MVC Cursos\\Escola.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Proj.MVC Cursos\\Proj.MVC Cursos\\Escola.cs",
+              "RelativeToolTip": "Proj.MVC Cursos\\Escola.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T20:53:51.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Proj.MVC Cursos\\Proj.MVC Cursos\\Curso.cs",
+              "RelativeDocumentMoniker": "Proj.MVC Cursos\\Curso.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Proj.MVC Cursos\\Proj.MVC Cursos\\Curso.cs",
+              "RelativeToolTip": "Proj.MVC Cursos\\Curso.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T20:49:17.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Disciplina.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Proj.MVC Cursos\\Proj.MVC Cursos\\Disciplina.cs",
+              "RelativeDocumentMoniker": "Proj.MVC Cursos\\Disciplina.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Proj.MVC Cursos\\Proj.MVC Cursos\\Disciplina.cs",
+              "RelativeToolTip": "Proj.MVC Cursos\\Disciplina.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T20:43:34.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Proj.MVC Cursos\\Proj.MVC Cursos\\Aluno.cs",
+              "RelativeDocumentMoniker": "Proj.MVC Cursos\\Aluno.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Proj.MVC Cursos\\Proj.MVC Cursos\\Aluno.cs",
+              "RelativeToolTip": "Proj.MVC Cursos\\Aluno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T20:40:58.136Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 1476,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
