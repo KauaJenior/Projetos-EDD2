@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alexa\\source\\repos\\Proj. MVC Restaurante\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC3D097-6D1B-4A7E-8987-0CFEAF265A44}|Proj. MVC Restaurante\\Proj. MVC Restaurante.csproj|c:\\users\\alexa\\source\\repos\\proj. mvc restaurante\\proj. mvc restaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC3D097-6D1B-4A7E-8987-0CFEAF265A44}|Proj. MVC Restaurante\\Proj. MVC Restaurante.csproj|solutionrelative:proj. mvc restaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC3D097-6D1B-4A7E-8987-0CFEAF265A44}|Proj. MVC Restaurante\\Proj. MVC Restaurante.csproj|c:\\users\\alexa\\source\\repos\\proj. mvc restaurante\\proj. mvc restaurante\\restaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC3D097-6D1B-4A7E-8987-0CFEAF265A44}|Proj. MVC Restaurante\\Proj. MVC Restaurante.csproj|solutionrelative:proj. mvc restaurante\\restaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC3D097-6D1B-4A7E-8987-0CFEAF265A44}|Proj. MVC Restaurante\\Proj. MVC Restaurante.csproj|c:\\users\\alexa\\source\\repos\\proj. mvc restaurante\\proj. mvc restaurante\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC3D097-6D1B-4A7E-8987-0CFEAF265A44}|Proj. MVC Restaurante\\Proj. MVC Restaurante.csproj|solutionrelative:proj. mvc restaurante\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC3D097-6D1B-4A7E-8987-0CFEAF265A44}|Proj. MVC Restaurante\\Proj. MVC Restaurante.csproj|c:\\users\\alexa\\source\\repos\\proj. mvc restaurante\\proj. mvc restaurante\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC3D097-6D1B-4A7E-8987-0CFEAF265A44}|Proj. MVC Restaurante\\Proj. MVC Restaurante.csproj|solutionrelative:proj. mvc restaurante\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Proj. MVC Restaurante\\Proj. MVC Restaurante\\Program.cs",
+              "RelativeDocumentMoniker": "Proj. MVC Restaurante\\Program.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Proj. MVC Restaurante\\Proj. MVC Restaurante\\Program.cs",
+              "RelativeToolTip": "Proj. MVC Restaurante\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:36:05.908Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Restaurante.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Proj. MVC Restaurante\\Proj. MVC Restaurante\\Restaurante.cs",
+              "RelativeDocumentMoniker": "Proj. MVC Restaurante\\Restaurante.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Proj. MVC Restaurante\\Proj. MVC Restaurante\\Restaurante.cs",
+              "RelativeToolTip": "Proj. MVC Restaurante\\Restaurante.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowD8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:19:46.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Proj. MVC Restaurante\\Proj. MVC Restaurante\\Pedido.cs",
+              "RelativeDocumentMoniker": "Proj. MVC Restaurante\\Pedido.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Proj. MVC Restaurante\\Proj. MVC Restaurante\\Pedido.cs",
+              "RelativeToolTip": "Proj. MVC Restaurante\\Pedido.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwFcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:42:35.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Proj. MVC Restaurante\\Proj. MVC Restaurante\\Item.cs",
+              "RelativeDocumentMoniker": "Proj. MVC Restaurante\\Item.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Proj. MVC Restaurante\\Proj. MVC Restaurante\\Item.cs",
+              "RelativeToolTip": "Proj. MVC Restaurante\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:36:54.678Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 1476,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

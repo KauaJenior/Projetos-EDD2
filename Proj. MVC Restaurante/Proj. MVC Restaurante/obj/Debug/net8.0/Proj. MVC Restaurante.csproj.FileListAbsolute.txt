@@ -1,0 +1,14 @@
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\obj\Debug\net8.0\Proj. MVC Restaurante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\obj\Debug\net8.0\Proj. MVC Restaurante.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\obj\Debug\net8.0\Proj. MVC Restaurante.AssemblyInfo.cs
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\obj\Debug\net8.0\Proj. MVC Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\bin\Debug\net8.0\Proj. MVC Restaurante.exe
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\bin\Debug\net8.0\Proj. MVC Restaurante.deps.json
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\bin\Debug\net8.0\Proj. MVC Restaurante.runtimeconfig.json
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\bin\Debug\net8.0\Proj. MVC Restaurante.dll
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\bin\Debug\net8.0\Proj. MVC Restaurante.pdb
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\obj\Debug\net8.0\Proj. MVC Restaurante.dll
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\obj\Debug\net8.0\refint\Proj. MVC Restaurante.dll
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\obj\Debug\net8.0\Proj. MVC Restaurante.pdb
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\obj\Debug\net8.0\Proj. MVC Restaurante.genruntimeconfig.cache
+C:\Users\alexa\source\repos\Proj. MVC Restaurante\Proj. MVC Restaurante\obj\Debug\net8.0\ref\Proj. MVC Restaurante.dll
