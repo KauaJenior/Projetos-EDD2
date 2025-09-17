@@ -16,6 +16,15 @@ namespace Proj.Listas_Agenda
         public int Mes { get => mes; set => mes = value; }
         public int Ano { get => ano; set => ano = value; }
 
+
+        public Data(int dia, int mes, int ano)
+        {
+            this.dia = dia;
+            this.mes = mes;
+            this.ano = ano;
+        }
+
+        public Data() { }
         public void setData(int dia, int mes, int ano)
         {
             this.dia = dia;

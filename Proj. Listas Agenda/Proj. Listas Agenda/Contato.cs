@@ -12,34 +12,35 @@ namespace Proj.Listas_Agenda
         private string email;
         private string nome;
         private Data dtNasc;
-        private List<Telefone> telefones = new List<Telefone>();
+        private List<Telefone> telefones_;
 
         public string Email { get => email; set => email = value; }
         public string Nome { get => nome; set => nome = value; }
-        public Data DtNasc { get => dtNasc;}
-        public List<Telefone> Telefones { get => telefones; set => telefones = value; }
+        internal Data DtNasc { get => dtNasc;}
+        internal List<Telefone> Telefones { get => telefones_;}
 
-        public Contato(string email, string nome)
+        public Contato(string email, string nome, Data dtNasc)
         {
             this.email = email;
             this.nome = nome;
+            this.dtNasc = dtNasc;
+            this.telefones_ = new List<Telefone>();
             
         }
 
-        public int getDate()
+        public int getIdade()
         {
-             string data = this.DtNasc.ToString();
-            return int.Parse(data);
+            return DtNasc.Ano - DateTime.Now.Year;
         }
 
         public void adicionarTelefone(Telefone t)
         {
-            telefones.Add(t);
+            Telefones.Add(t);
         }
 
         public string getTelefonePrincipal()
         {
-            foreach (Telefone telefone in telefones)
+            foreach (Telefone telefone in Telefones)
             {
                 if (telefone.Principal)
                 {
@@ -51,14 +52,16 @@ namespace Proj.Listas_Agenda
 
         public override string ToString()
         {
-            foreach (Telefone t in telefones)
+            foreach (Telefone t in telefones_)
             {
                 if (t.Principal)
                 {
-                    return "------------------" + '\n' 
+                    return "------------------" + '\n'
                         + "Nome:" + this.nome + '\n'
                         + "Email: " + this.nome + '\n'
-                        + "Telefone principal: " + getTelefonePrincipal().ToString();
+                        + "Telefone principal: " + getTelefonePrincipal().ToString() + "\n"
+                        + "Data de nascimento:" + dtNasc.ToString()
+                        + "Idade: " + getIdade().ToString() + "\n";
                 }
             } return "Contato não encontrado ou sem número principal";
         }
