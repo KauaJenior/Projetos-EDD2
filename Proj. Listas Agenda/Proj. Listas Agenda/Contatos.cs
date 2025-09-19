@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Proj.Listas_Agenda
 {
-    public class Contatos
+    internal class Contatos
     {
         private List<Contato> agenda_;
-       
-        public List<Contato> Agenda { get => agenda_;}
+
+        public List<Contato> Agenda { get => agenda_; }
 
 
         public Contatos()
@@ -20,7 +20,7 @@ namespace Proj.Listas_Agenda
 
         public bool adicionar(Contato c)
         {
-            foreach(Contato contatoNaLista in agenda_)
+            foreach (Contato contatoNaLista in agenda_)
             {
                 if (contatoNaLista.Equals(c))
                 {
@@ -37,13 +37,13 @@ namespace Proj.Listas_Agenda
             {
                 if (pessoa.Equals(c))
                 {
-                   return pessoa;
+                    return pessoa;
                 }
             }
             return null;
         }
-           
-        public bool alterar (Contato c)
+
+        public bool alterar(Contato c)
         {
             for (int i = 0; i < agenda_.Count; i++)
             {
@@ -60,9 +60,9 @@ namespace Proj.Listas_Agenda
         {
             foreach (Contato pessoa in agenda_)
             {
-                if (pessoa.Equals(pessoa))
+                if (pessoa.Equals(c))
                 {
-                    agenda_.Remove(pessoa);
+                    agenda_.Remove(c);
                     return true;
                 }
             }

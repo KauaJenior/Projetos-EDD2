@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proj.Listas_Agenda
 {
-    public class Data
+    internal class Data
     {
         private int dia;
         private int mes;
@@ -23,6 +23,7 @@ namespace Proj.Listas_Agenda
             this.mes = mes;
             this.ano = ano;
         }
+       
 
         public Data() { }
         public void setData(int dia, int mes, int ano)
@@ -34,7 +35,7 @@ namespace Proj.Listas_Agenda
 
         public override string ToString()
         {
-            
+
             return this.dia.ToString() + "/" + this.mes.ToString() + "/" + this.ano.ToString();
         }
     }

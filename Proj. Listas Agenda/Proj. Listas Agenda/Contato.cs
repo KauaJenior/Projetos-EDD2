@@ -4,10 +4,11 @@ using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Proj.Listas_Agenda
 {
-    public class Contato
+    internal class Contato
     {
         private string email;
         private string nome;
@@ -16,8 +17,10 @@ namespace Proj.Listas_Agenda
 
         public string Email { get => email; set => email = value; }
         public string Nome { get => nome; set => nome = value; }
-        internal Data DtNasc { get => dtNasc;}
-        internal List<Telefone> Telefones { get => telefones_;}
+        internal Data DtNasc { get => dtNasc; set => dtNasc = value; }
+        internal List<Telefone> Telefones { get => telefones_; }
+
+        public Contato(): this("", "", new Data()) { }
 
         public Contato(string email, string nome, Data dtNasc)
         {
@@ -25,12 +28,12 @@ namespace Proj.Listas_Agenda
             this.nome = nome;
             this.dtNasc = dtNasc;
             this.telefones_ = new List<Telefone>();
-            
+
         }
 
         public int getIdade()
         {
-            return DtNasc.Ano - DateTime.Now.Year;
+            return DateTime.Now.Year - DtNasc.Ano;
         }
 
         public void adicionarTelefone(Telefone t)
@@ -58,12 +61,13 @@ namespace Proj.Listas_Agenda
                 {
                     return "------------------" + '\n'
                         + "Nome:" + this.nome + '\n'
-                        + "Email: " + this.nome + '\n'
+                        + "Email: " + this.email + '\n'
                         + "Telefone principal: " + getTelefonePrincipal().ToString() + "\n"
-                        + "Data de nascimento:" + dtNasc.ToString()
+                        + "Data de nascimento:" + dtNasc.ToString() + "\n"
                         + "Idade: " + getIdade().ToString() + "\n";
                 }
-            } return "Contato não encontrado ou sem número principal";
+            }
+            return "Contato não encontrado ou sem número principal";
         }
 
         public override bool Equals(object obj)

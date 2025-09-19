@@ -1,0 +1,14 @@
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\bin\Debug\net8.0\Proj. Listas Agenda.exe
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\bin\Debug\net8.0\Proj. Listas Agenda.deps.json
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\bin\Debug\net8.0\Proj. Listas Agenda.runtimeconfig.json
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\bin\Debug\net8.0\Proj. Listas Agenda.dll
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\bin\Debug\net8.0\Proj. Listas Agenda.pdb
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\obj\Debug\net8.0\Proj. Listas Agenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\obj\Debug\net8.0\Proj. Listas Agenda.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\obj\Debug\net8.0\Proj. Listas Agenda.AssemblyInfo.cs
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\obj\Debug\net8.0\Proj. Listas Agenda.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\obj\Debug\net8.0\Proj. Listas Agenda.dll
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\obj\Debug\net8.0\refint\Proj. Listas Agenda.dll
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\obj\Debug\net8.0\Proj. Listas Agenda.pdb
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\obj\Debug\net8.0\Proj. Listas Agenda.genruntimeconfig.cache
+C:\Users\alexa\source\repos\Proj. Listas Agenda\Proj. Listas Agenda\obj\Debug\net8.0\ref\Proj. Listas Agenda.dll

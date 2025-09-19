@@ -1,17 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Proj.Listas_Agenda
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
             Contatos agenda = new Contatos();
             int opcao;
+
+            // Inicializa contatos de teste
+            InicializarContatos(agenda);
 
             do
             {
@@ -21,12 +20,12 @@ namespace Proj.Listas_Agenda
                 Console.WriteLine("2 - Pesquisar contato");
                 Console.WriteLine("3 - Alterar contato");
                 Console.WriteLine("4 - Remover contato");
-                Console.WriteLine("5 - Listar Contato");
-                Console.WriteLine("Escolha uma opção; ");
+                Console.WriteLine("5 - Listar Contatos");
+                Console.Write("Escolha uma opção: ");
 
                 if (!int.TryParse(Console.ReadLine(), out opcao))
                 {
-                    Console.WriteLine("Opção Incálida");
+                    Console.WriteLine("Opção inválida!");
                     continue;
                 }
 
@@ -37,59 +36,141 @@ namespace Proj.Listas_Agenda
                         break;
 
                     case 1:
-                        AdicionarContatos();
+                        AdicionarContato(agenda);
+                        break;
+                    case 2:
+                        PesquisarContato(agenda);
+                        break;
+                    case 3:
+                        AlterarContato(agenda);
+                        break;
+                    case 4:
+                        RemoverContato(agenda);
+                        break;
+                    case 5:
+                        ListarContatos(agenda);
+                        break;
+                    default:
+                        Console.WriteLine("Opção inválida!");
                         break;
                 }
-                
-            }
-            while (opcao !=0);
 
+            } while (opcao != 0);
+        }
 
-            static void InicializarContatos(Contatos agenda)
+        // ------------------- MÉTODOS -------------------
+
+        static void InicializarContatos(Contatos agenda)
+        {
+            for (int i = 1; i <= 5; i++) // só 5 para teste
             {
-                for (int i = 1; i <= 10; i++)
-                {
-                    Data dt = new Data();
-                    Contato contato = new Contato($"email{i}@teste.com", $"Contato {i}", dt);
-                    contato.adicionarTelefone(new Telefone("Celular", $"1199999{i:0000}", true));
-                    agenda.adicionar(contato);
-                }
+                Data dt = new Data();
+                Contato contato = new Contato($"email{i}@teste.com", $"Contato {i}", dt);
+                contato.adicionarTelefone(new Telefone("Celular", $"1199999{i:0000}", true));
+                agenda.adicionar(contato);
+            }
+        }
+
+        static void AdicionarContato(Contatos agenda)
+        {
+            Console.Write("Nome: ");
+            string nome = Console.ReadLine();
+
+            Console.Write("Email: ");
+            string email = Console.ReadLine();
+
+            Console.Write("Data de nascimento (dd/mm/aaaa): ");
+            string[] data = Console.ReadLine().Split('/');
+            Data dt = new Data(int.Parse(data[0]), int.Parse(data[1]), int.Parse(data[2]));
+
+            Contato contato = new Contato(email, nome, dt);
+
+            Console.Write("Telefone principal: ");
+            string numero = Console.ReadLine();
+
+            Console.WriteLine("\n Tipo de telefone: "
+                + "\n 1 - Celular"
+                + "\n 2 - Fixo"
+            );
+            if (!int.TryParse(Console.ReadLine(), out int Ttelefone))
+            {
+                Console.WriteLine("Tipo inválido, contato não adicionado.");
+                return;
             }
 
-            static void AdicionarContato(Contatos agenda)
+            string TipoTelefone;
+            if (Ttelefone == 1)
+                TipoTelefone = "Celular";
+            else if (Ttelefone == 2)
+                TipoTelefone = "Fixo";
+            else
             {
-                Console.Write("Nome: ");
-                string nome = Console.ReadLine();
+                Console.WriteLine("Tipo inválido, contato não adicionado.");
+                return;
+            }
 
-                Console.Write("Email: ");
-                string email = Console.ReadLine();
+            contato.adicionarTelefone(new Telefone(TipoTelefone, numero, true));
+            agenda.adicionar(contato);
 
-                Console.Write("Data de nascimento (dd/mm/aaaa)");
-                string[] data = Console.ReadLine().Split('/');
-                Data dt = new Data(int.Parse(data[0]), int.Parse(data[1]), int.Parse(data[2]));
+            Console.WriteLine("Contato adicionado com sucesso!");
+        }
 
-                Contato contato = new Contato(email, nome, dt);
+        static void PesquisarContato(Contatos agenda)
+        {
+            Console.Write("Digite o email do contato: ");
+            string email = Console.ReadLine();
+            Contato temporario = new Contato { Email = email };
 
-                Console.Write("Telefone principal: ");
-                string numero = Console.ReadLine();
+            Contato encontrado = agenda.pesquisar(temporario);
 
-                Console.WriteLine("\n Tipo de telefone: "
-                    + "\n Celular: 1"
-                    + "\n Fixo: 2"
-                    );
-                int Ttelefone = int.Parse(Console.ReadLine());
+            if (encontrado != null)
+                Console.WriteLine(encontrado);
+            else
+                Console.WriteLine("Contato não encontrado.");
+        }
 
-                String TipoTelefone;
-                if (Ttelefone == 1)
-                {
-                    TipoTelefone = "Celular";
-                } else if (Ttelefone == 2)
-                {
-                    TipoTelefone = "Fixo";
-                } else { TipoTelefone = "Inválido"; }
+        static void AlterarContato(Contatos agenda)
+        {
+            Console.Write("Digite o email do contato que deseja alterar: ");
+            string email = Console.ReadLine();
+            Contato temp = new Contato { Email = email };
 
-                contato.adicionarTelefone(new Telefone(TipoTelefone, numero, true));
-               
+            Contato encontrado = agenda.pesquisar(temp);
+            if (encontrado == null)
+            {
+                Console.WriteLine("Contato não encontrado.");
+                return;
+            }
+
+            Console.Write("Novo nome: ");
+            encontrado.Nome = Console.ReadLine();
+
+            Console.Write("Nova data de nascimento (dd/mm/aaaa): ");
+            string[] data = Console.ReadLine().Split('/');
+            encontrado.DtNasc = new Data(int.Parse(data[0]), int.Parse(data[1]), int.Parse(data[2]));
+
+            agenda.alterar(encontrado);
+            Console.WriteLine("Contato alterado com sucesso!");
+        }
+
+        static void RemoverContato(Contatos agenda)
+        {
+            Console.Write("Digite o email do contato que deseja remover: ");
+            string email = Console.ReadLine();
+            Contato temp = new Contato { Email = email };
+
+            if (agenda.remover(temp))
+                Console.WriteLine("Contato removido com sucesso!");
+            else
+                Console.WriteLine("Contato não encontrado.");
+        }
+
+        static void ListarContatos(Contatos agenda)
+        {
+            foreach (Contato c in agenda.Agenda)
+            {
+                Console.WriteLine("\n----------------");
+                Console.WriteLine(c);
             }
         }
     }
